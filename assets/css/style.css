@@ -1,0 +1,44 @@
+/* 
+ * Stylesheet for alerighi.github.io 
+ * (c) 2019 Alessandro Righi - released under the GPL-3.0 license
+ */
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Source Sans Pro';}
+
+footer ul li {
+    display: inline;
+}
+
+a {
+    color: #16759b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #165b9b;
+    text-decoration: underline;
+}
+
+#profile {
+    height: 20%;
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact li {
+    margin-left: 5px;
+}
+
+#title h1 {
+    text-align: center;
+    font-size: 40pt;
+}
