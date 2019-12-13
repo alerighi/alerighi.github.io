@@ -3,13 +3,26 @@
  * (c) 2019 Alessandro Righi - released under the GPL-3.0 license
  */
 
+/* credits to https://thebestmotherfucking.website */
+
+html {
+    background-color: #fefefe;
+}
+
+h1, h2, h3 {
+    line-height:1.2
+}
+
 body {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1500px;
-    font-family: 'Helvetica Neue', 'Roboto', 'Arial', 'sans-serif';
+    margin: 40px auto;
+    max-width: 800px;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #454545;
+    padding: 0 10px;
+    margin: 2em auto;
+    text-align: justify;
+    font-family: Open Sans, Arial;
 }
 
 a {
