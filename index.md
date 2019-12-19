@@ -1,44 +1,28 @@
-<!DOCTYPE html>
-<!-- (c) 2019 Alessandro Righi - released under the GPL-3.0 license -->
-<html lang="en">
-<head>
-  <title>Alessandro Righi</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Alessandro Righi's personal webpage">
-  <meta name="author" content="Alessandro Righi">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" crossorigin="anonymous">	
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-<header>
-<h1 id="title">Alessandro Righi</h1>
-</header>
-<main id="about">
+---
+layout: default
+title: Alessandro Righi
+---
 <img id="profile" src="assets/img/profile.jpeg" alt="my profile picture">
-<h2>ABOUT ME</h2>
-<p>
+## ABOUT ME
+
 Hi! I'm a computer science student, currently completing a Master's degree at 
 the University of Verona.
-</p>
-<p>
-I live in <a href="https://www.openstreetmap.org/search?query=san%20pietro%20in%20cariano#map=16/45.5198/10.8886"
-title="Map">San Pietro in Cariano</a>, a beautiful village in the Valpolicella
+
+I live in [San Pietro in Cariano](https://www.openstreetmap.org/search?query=san%20pietro%20in%20cariano#map=16/45.5198/10.8886), 
+a beautiful village in the Valpolicella
 countryside, home of famous Italian wines like Amarone and Recioto.
-</p>
-<p>
+
 As a child I was really courious, I had to know how things worked, I liked to
 take apart stuff and always had a screwdriver in my hands. Then my parents gave
 me a computer, so I started tinkering around with it, installed Linux on it, 
 and then started programming. And I instantly fell in love with it, I had the
 power to make my computer do exactly what I tell him to do. 
-</p>
-<p>
-<i>But don't worry! I also like other things, hanging out with friends, doing 
-sports, music, litterature, politics, I'm not the boring nerd that I may appear!</i>
-</p>
-<h2>IT KNOWLEDGE</h2>
-<p>
+
+*But don't worry! I also like other things, hanging out with friends, doing 
+sports, music, litterature, politics, I'm not the boring nerd that I may appear!*
+
+## IT KNOWLEDGE
+
 I know very well GNU/Linux operatings systems, in fact I'm a huge free software 
 supporter. I used practically every distribution, and now setteled with ArchLinux
 (in reality on my laptop I switched to Parabola GNU/Linux, a 100% free software 
@@ -46,69 +30,55 @@ distribution), and I feel at home in a shell. I don't infact particulary like
 graphical user interfaces, in fact in my computer I use i3 as a windows manager and
 only cli programs, with the exeption of the web browser, Firefox, for wich I have 
 a plugin to use vim key bindings ;-).
-</p>
-<p>
+
 I like being a systemd administrator, managing servers, configuring networks, 
 writing shell scripts, configuration files, managing databases, and even installing,
 configuring or repairing hardware (I like using a soldering iron).
-</p>
-<p>
+
 I'm also good at coding, I know a lot of programming languages: Rust, C, C++, Python,
 Java, JavaScript, shell scripting. My favourite historically was C, but now I'm 
 starting to use Rust, and I like it.
-</p>
-<p>
+
 I also have competences in SQL databases, building REST or GraphQL APIs, building 
 backends for web applications, and a little of frontend programming, even if I don't
 like doing that. 
-</p>
-<p>
+
 I also have good competences in algorithms and data structures. In that regard 
 I participate at programming contests, last year I partecipated at the SWERC ICPC 
 regionals in Paris and at the Google HashCode word finals in Dublin.
-</p>
-<h2>WORK EXPERIENCE</h2>
-<p>
+
+## WORK EXPERIENCE
+
 Since 2018 I work for the Italian Olympiad in Informatics team, as a tutor at the 
 trainings that are held in Voltera. There I have the opportunity to confront myself
 with other persons like me, work on projects, learn new things. 
-</p>
-<p>
+
 I work as a tutor in my university, last year I was a tutor for the source 
-<i>Laboratory of Programing</i> for math freshmen, this year I'm a tutor for the
-courses <i>Programming I</i> for Bioinformatics students and <i>Programming II 
-and software engineering</i> for Informatics students.  
-</p>
-<p>
-At my univeristy I'm also one of the organizer of the initiative <i>Programming 
-Challenges</i>, that consists in a space where students with the passion of 
+*Laboratory of Programing* for math freshmen, this year I'm a tutor for the
+courses *Programming I* for Bioinformatics students and *Programming II 
+and software engineering* for Informatics students.  
+
+At my univeristy I'm also one of the organizer of the initiative *Programming 
+Challenges*, that consists in a space where students with the passion of 
 programming can meet, learn new things, train to participate in programming 
 contests, and work on group projects.
-</p>
-<p>
+
 I also developed a lot of personal project, that can be found on my GitHub page. 
-</p>
-<p>
+
 As a non-IT related jobs, I help my father with his vineyards, in particular 
 with the harvest. I appreciate doing a job outside, that doesn't consist in sitting 
 down in front of a screen all day. 
-</p>
-<p>
-<b>You can download my full CV (curriculum vitae) 
-<a href="https://alerighi.github.io/cv/cv.en.pdf" title="CV English">here</a></b> 
-(or <a href="https://alerighi.github.io/cv/cv.it.pdf" title="CV Italian">here</a> in Italian).
-</p>
-<p>
+
+**You can download my full CV (curriculum vitae) [here](https://alerighi.github.io/cv/cv.en.pdf)**
+(or [here](https://alerighi.github.io/cv/cv.it.pdf) in Italian).
+
 I'm currently looking around for a job, since I completing my studies, so job offfers are very welcome! 
-</p>
-<p>
+
 If you are wondering how this website is made: go and check out 
-<a href="https://thebestmotherfucking.website/">thebestmotherfucking.website</a>! 
+[thebestmotherfucking.website](https://thebestmotherfucking.website)! 
 You will discover that to make a good locking website you don't need JavaScript, you 
 don't need Bootstrap, just plain HTML and a couple of CSS rules.
-</p>
-</main>
-<footer>
+
 <ul id="contact">
 <li><a href="mailto:alerighi4@gmail.com" title="Mail"><i class="fas fa-3x fa-envelope"></i></a></li>
 <li><a href="https://telegram.me/alerighi" title="Telegram"><i class="fab fa-3x fa-telegram"></i></a></li>
@@ -117,6 +87,3 @@ don't need Bootstrap, just plain HTML and a couple of CSS rules.
 <li><a href="https://instagram.com/alessandro.righi_" title="Instagram"><i class="fab fa-3x fa-instagram"></i></a></li>
 <li><a href="https://www.facebook.com/righiale" title="Facebook"><i class="fab fa-3x fa-facebook"></i></a></li>
 </ul>
-</footer>
-</body>
-</html>
