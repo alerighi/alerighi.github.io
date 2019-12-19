@@ -1,6 +1,6 @@
 ---
 title: My computing setup
-layout: defualt
+layout: default
 ---
 I have two main computers that I use:
 - a desktop computer that I built years ago, that has an i7 3770k 
