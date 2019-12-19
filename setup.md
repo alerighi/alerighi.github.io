@@ -29,12 +29,12 @@ a lot of resources and for me are more difficult to use with all their
 menus and icons. I use a simple window manager, that is i3. As a terminal
 emulator I use urxvt.
 
-I like minimalism in software: software that is small, well writteng and gets
+I like minimalism in software: software that is small, well written and gets
 the job done without too many complications. I don't care if the software 
 looks nice, I want it to be robust, be usable and work reliably.
 
 As a text editor I use vim, that I'm also using to write this HTML document.
-I tried to use Emacs in the past but I found it too coplex, plus the keyboard
+I tried to use Emacs in the past but I found it too complex, plus the keyboard
 shortcuts are not simple to type. I do most of my editing in vim, with the 
 exception of working on large projects, for which I use IntelliJ Community 
 Edition, especially for Rust project since it has a very good plugin for it. 
@@ -59,8 +59,8 @@ but even then I have the problem that a lot of applications requires Google
 Services to run. Or I get rid of the mobile phone and solve the problem at its
 roots, that would be the best solution.
 
-I have social media account but I'm considering deliting them. By the way I 
+I have social media account but I'm considering deleting them. By the way I 
 don't use them a lot, so it wouldn't change a lot getting rid of them. For my
-communications I mostly use Telegram, even if I would have personally choosen
+communications I mostly use Telegram, even if I would have personally chosen
 Signal that is more secure and it's free software, but unfortunately nobody in
 my contacts uses it. 

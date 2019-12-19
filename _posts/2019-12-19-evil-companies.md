@@ -45,6 +45,6 @@ They said that they sent me an email to confirm the request. I check my email
 and found nothing. Mmmm let's check the spam folder, ah found it! Normally
 of course emails regarding new versions of the software didn't go to spam, 
 even if they **were** spam, but by chance an email regarding a stupid thing
-like privacy informations will go to spam. Ok. 
+like privacy information will go to spam. Ok. 
 
 Now let's wait 30 days and see if somebody will respond me. 

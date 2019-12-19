@@ -12,7 +12,7 @@ I live in [San Pietro in Cariano](https://www.openstreetmap.org/search?query=san
 a beautiful village in the Valpolicella
 countryside, home of famous Italian wines like Amarone and Recioto.
 
-As a child I was really courious, I had to know how things worked, I liked to
+As a child I was really curious, I had to know how things worked, I liked to
 take apart stuff and always had a screwdriver in my hands. Then my parents gave
 me a computer, so I started tinkering around with it, installed Linux on it, 
 and then started programming. And I instantly fell in love with it, I had the
@@ -23,12 +23,12 @@ sports, music, litterature, politics, I'm not the boring nerd that I may appear!
 
 ## IT KNOWLEDGE
 
-I know very well GNU/Linux operatings systems, in fact I'm a huge free software 
-supporter. I used practically every distribution, and now setteled with ArchLinux
+I know very well GNU/Linux operating systems, in fact I'm a huge free software 
+supporter. I used practically every distribution, and now settled with ArchLinux
 (in reality on my laptop I switched to Parabola GNU/Linux, a 100% free software 
-distribution), and I feel at home in a shell. I don't infact particulary like 
+distribution), and I feel at home in a shell. I don't indeed particularly like 
 graphical user interfaces, in fact in my computer I use i3 as a windows manager and
-only cli programs, with the exeption of the web browser, Firefox, for wich I have 
+only CLI programs, with the exception of the web browser, Firefox, for which I have 
 a plugin to use vim key bindings ;-).
 
 I like being a systemd administrator, managing servers, configuring networks, 
@@ -36,7 +36,7 @@ writing shell scripts, configuration files, managing databases, and even install
 configuring or repairing hardware (I like using a soldering iron).
 
 I'm also good at coding, I know a lot of programming languages: Rust, C, C++, Python,
-Java, JavaScript, shell scripting. My favourite historically was C, but now I'm 
+Java, JavaScript, shell scripting. My favorite historically was C, but now I'm 
 starting to use Rust, and I like it.
 
 I also have competences in SQL databases, building REST or GraphQL APIs, building 
@@ -44,13 +44,13 @@ backends for web applications, and a little of frontend programming, even if I d
 like doing that. 
 
 I also have good competences in algorithms and data structures. In that regard 
-I participate at programming contests, last year I partecipated at the SWERC ICPC 
-regionals in Paris and at the Google HashCode word finals in Dublin.
+I participate at programming contests, last year I participated at the SWERC ICPC 
+regional in Paris and at the Google HashCode word finals in Dublin.
 
 ## WORK EXPERIENCE
 
 Since 2018 I work for the Italian Olympiad in Informatics team, as a tutor at the 
-trainings that are held in Voltera. There I have the opportunity to confront myself
+trainings that are held in Volterra. There I have the opportunity to confront myself
 with other persons like me, work on projects, learn new things. 
 
 I work as a tutor in my university, last year I was a tutor for the source 
@@ -58,7 +58,7 @@ I work as a tutor in my university, last year I was a tutor for the source
 courses *Programming I* for Bioinformatics students and *Programming II 
 and software engineering* for Informatics students.  
 
-At my univeristy I'm also one of the organizer of the initiative *Programming 
+At my university I'm also one of the organizer of the initiative *Programming 
 Challenges*, that consists in a space where students with the passion of 
 programming can meet, learn new things, train to participate in programming 
 contests, and work on group projects.
@@ -72,7 +72,7 @@ down in front of a screen all day.
 **You can download my full CV (curriculum vitae) [here](https://alerighi.github.io/cv/cv.en.pdf)**
 (or [here](https://alerighi.github.io/cv/cv.it.pdf) in Italian).
 
-I'm currently looking around for a job, since I completing my studies, so job offfers are very welcome! 
+I'm currently looking around for a job, since I completing my studies, so job offers are very welcome! 
 
 If you are wondering how this website is made: go and check out 
 [thebestmotherfucking.website](https://thebestmotherfucking.website)! 
