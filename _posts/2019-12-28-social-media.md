@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Why I stop using social media
+date: 2019-12-28
+title: Why I quit using social media
 ---
 
 I never liked social networks. I first created a Facebook account when I was in
