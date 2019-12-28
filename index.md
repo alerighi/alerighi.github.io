@@ -2,11 +2,14 @@
 layout: default
 title: Alessandro Righi
 ---
+
 <img id="profile" src="assets/img/profile.jpeg" alt="my profile picture">
 ## ABOUT ME
 
 Hi! I'm a computer science student, currently completing a Master's degree at 
 the University of Verona.
+
+**Check out my [blog](/blog)!**
 
 I live in [San Pietro in Cariano](https://www.openstreetmap.org/search?query=san%20pietro%20in%20cariano#map=16/45.5198/10.8886), 
 a beautiful village in the Valpolicella
