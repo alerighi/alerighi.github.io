@@ -86,9 +86,7 @@ don't need Bootstrap, just plain HTML and a couple of CSS rules.
 <li><a href="mailto:alerighi4@gmail.com" title="Mail"><i class="fas fa-3x fa-envelope"></i></a></li>
 <li><a href="https://telegram.me/alerighi" title="Telegram"><i class="fab fa-3x fa-telegram"></i></a></li>
 <li><a href="https://github.com/alerighi" title="GitHub"><i class="fab fa-3x fa-github"></i></a></li>
-<!--
 <li><a href="https://www.linkedin.com/in/alessandro-righi-051488158//" title="LinkedIn"><i class="fab fa-3x fa-linkedin"></i></a></li>
 <li><a href="https://instagram.com/alessandro.righi_" title="Instagram"><i class="fab fa-3x fa-instagram"></i></a></li>
 <li><a href="https://www.facebook.com/righiale" title="Facebook"><i class="fab fa-3x fa-facebook"></i></a></li>
--->
 </ul>
