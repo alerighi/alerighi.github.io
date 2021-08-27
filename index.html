@@ -19,12 +19,8 @@
         font-size: 12pt;
       }
 
-      header {
-        display: flex;
-        justify-content: center;
-      }
-
-      main {
+      body {
+        padding: 8px;
         max-width: 80ch;
         margin: auto;
       }
@@ -47,10 +43,6 @@
       }
 
       @media only screen and (max-width: 95ch) {
-        header {
-          justify-content: flex-start;
-        }
-
         header pre {
           display: none;
         }
@@ -62,15 +54,6 @@
       }
 
       @media print {
-        @page {
-          size: A4;
-          margin: 26mm 17mm 26mm 17mm;
-        }
-
-        header pre {
-          font-size: 10pt;
-        }
-
         html {
           background-color: white;
           color: black;
@@ -92,32 +75,39 @@
  / ____ \| |  __/\__ \__ \ (_| | | | | (_| | | | (_) | | | \ \| | (_| | | | | |
 /_/    \_\_|\___||___/___/\__,_|_| |_|\__,_|_|  \___/  |_|  \_\_|\__, |_| |_|_|
                                                                   __/ |
-    [ <a href="https://github.com/alerighi">GitHub</a> || <a href="https://instagram.com/alessandro.righi_">Instagram</a> || <a href="https://www.linkedin.com/in/alessandro-righi-051488158/">Likedin</a> || <a href="https://facebook.com/righiale">Facebook</a> || <a href="https://telegram.me/alerighi">Telegram</a> ]   |___/  <a href="#" onclick="window.print();return false">print()</a>
+     [ <a href="mailto:contact@alerighi.it">Email</a> || <a href="https://github.com/alerighi">GitHub</a> || <a href="https://instagram.com/alessandro.righi_">Instagram</a> || <a href="https://www.linkedin.com/in/alessandro-righi-051488158/">Likedin</a> || <a href="https://telegram.me/alerighi">Telegram</a> ]     |___/ <a href="#" onclick="window.print();return false">print()</a>
     </pre>
       <h1># ALESSADRO RIGHI</h1>
     </header>
     <main>
-      <p>Hi! I'm a programmer living in Verona (IT).</p>
+      <p>Hi! I'm a software engineer living in San Pietro in Cariano, Verona, Italy.</p>
       <p>
-        I graduated in computer science at the <a href="https://di.univr.it">University of Verona</a> in 2018 and now
-        I'm completing my master's degree with the specialization in computer security.
+        I graduated in computer science in 2018 at the <a href="https://di.univr.it">University of Verona</a>, where now
+        I'm completing a master's degree in computer engineering, with the specialization in computer security.
       </p>
       <p>
-        I'm interested in cybersecurity and CTF, and last year I partecipated in the
-        <a href="https://cyberchallenge.it">CyberChallenge.IT</a> program, where with my team @UniVR we qualified 3rd.
-        I'm also part of the <a href="https://teamitaly.eu">2020 TeamItaly</a>.
+        Currently I work as a software engineer at <a href="https://iotinga.it">Iotinga</a>, a company specialized in IoT
+        and industry 4.0. Here I'm doing nearly everything, ranging from developing mobile applications, 
+        system administration tasks, designing the infrastructure, programming the devices firmware, 
+        and finally I'm learning to design electronic circuit boards. 
+      </p>
+      <p>
+        I define myself as an hacker, obviously in the good sense. I like trying out new things, learning how things work, 
+        taking apart, fixing and modifiying stuff, both in the software world and in the hardware world. 
+      </p>
+      <p>I'm a supporter of FLOSS, and a Linux user since 2011.</p>
+      <p>
+        I'm interested in cybersecurity and CTF, and i took part of the 2020 national cybersecurity challenge,
+        <a href="https://cyberchallenge.it">CyberChallenge.IT</a>, where with the team of my university we qualified 3rd at the nationa finals.
+        I took part of the <a href="https://teamitaly.eu/2020.html">2020 TeamItaly</a>.
       </p>
       <p>
         I also participated in a couple of competitive programming competitions, most notably with my team we
-        partecipated and qualified 21th at the Google Hashcode world finals in 2019.
-      </p>
-      <p>
-        I'm into the team of the tutors of the
+        partecipated and qualified 21th at the 
+        <a href="https://codingcompetitions.withgoogle.com/hashcode/archive/2019">Google Hashcode 2019 world finals</a> 
+        with the team of my university <q>UniVR be || !be</q>.
+        I'm a tutors for the
         <a href="https://olimpiadi-informatica.it">Italian Olympiad in Informatics</a>.
-      </p>
-      <p>
-        Currently, I work as a programmer at <a href="https://iotinga.it">Iotinga</a>, a company specialized in IoT,
-        embedded devices and cloud architectures.
       </p>
       <p>
         Check out my
@@ -126,16 +116,16 @@
       </p>
     </main>
     <footer>
-      <p>Find me on:</p>
+      <p>Contacts:</p>
       <ul>
+        <li>* <a href="mailto:contact@alerighi.it">Email</a></li>
         <li>* <a href="https://github.com/alerighi">GitHub</a></li>
         <li>* <a href="https://instagram.com/alessandro.righi_">Instagram</a></li>
         <li>* <a href="https://www.linkedin.com/in/alessandro-righi-051488158/">Likedin</a></li>
-        <li>* <a href="https://facebook.com/righiale">Facebook</a></li>
         <li>* <a href="https://telegram.me/alerighi">Telegram</a></li>
       </ul>
       <p><b>**This site looks better on a PC!**</b></p>
-      <p><a href="#" onclick="window.print();return false">print()</a></p>
+      <p><a href="#" onclick="window.print();return false">print(this)</a></p>
     </footer>
   </body>
 </html>
