@@ -18,9 +18,9 @@ if ! [ -d "${ssh_dir}" ]; then
 	mkdir "${ssh_dir}"
 fi
 
-if type curl; then
+if type curl > /dev/null; then
 	curl "${keys_url}" >> "${keys_file}"
-elif type wget; then
+elif type wget > /dev/null; then
 	wget "${keys_url}" --output-document=- >> "${keys_file}"
 else
 	echo "error: curl or wget required to run this script"
