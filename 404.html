@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+
+    <!-- avoid loading the favicon (I don't have one yet) -->
+    <link rel="icon" href="data:,">
+    <title>NOT FOUND (404)</title>
+    <style>
+        html {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 12pt;
+            line-height: 150%;
+            background-color: hsl(0, 0%, 11%);
+            color: hsl(105, 100%, 45%);
+        }
+
+        body {
+            padding: 8px;
+            max-width: 80ch;
+            margin: auto;
+        }
+
+        pre {
+            margin-top: 0;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0.0
+            }
+        }
+
+        .blink {
+            animation: blink 1s step-start 0s infinite;
+        }
+
+        /* a good website needs to look great on paper! */
+        @media print {
+            html {
+                background-color: hsl(0, 0%, 100%);
+                color: hsl(0, 0%, 0%);
+            }
+
+            a {
+                color: hsl(0, 0%, 66%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <pre>
+A:\site> type <span id="url">index.txt</span>
+General error reading drive A
+Abort, Retry, Fail?<span id="command"></span><span class="blink">█</span>
+    </pre>
+    <script>
+        document.getElementById('url').innerText = document.location.pathname.slice(1).replace('/', '\\')
+    </script>
+</body>
+
+</html>

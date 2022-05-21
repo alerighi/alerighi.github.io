@@ -1,74 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Alessandro Righi personal website" />
-    <meta name="author" content="Alessandro Righi" />
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://alerighi.it/">
-    <meta property="og:title" content="Alessandro Righi">
-    <meta property="og:image" content="https://alerighi.it/assets/profile.jpeg">
-    <meta property="og:description" content="Alessandro Righi personal website">
-    <link rel="icon" href="data:,">
-    <title>Alessandro Righi</title>
-    <style>
-      html {
-        font-family: "Courier New", Courier, monospace;
-        background-color: #282828;
-        color: #39e600;
-        font-size: 12pt;
-      }
 
-      body {
-        padding: 8px;
-        max-width: 80ch;
-        margin: auto;
-      }
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alessandro Righi personal website">
+  <meta name="author" content="Alessandro Righi">
+  <meta name="color-scheme" content="dark">
 
-      a {
-        color: #2db300;
-      }
+  <!-- open graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alerighi.it/">
+  <meta property="og:title" content="Alessandro Righi">
+  <meta property="og:image" content="https://alerighi.it/assets/profile.jpeg">
+  <meta property="og:description" content="Alessandro Righi personal website">
 
-      a:hover {
-        color: #0080b3;
-      }
+  <!-- avoid loading the favicon (I don't have one yet) -->
+  <link rel="icon" href="data:,">
+  <title>Alessandro Righi</title>
+  <style>
+    html {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 12pt;
+      line-height: 150%;
+      background-color: hsl(0, 0%, 11%);
+      color: hsl(105, 100%, 45%);
+    }
 
-      header h1,
-      footer {
+    body {
+      padding: 8px;
+      max-width: 80ch;
+      margin: auto;
+    }
+
+    a {
+      color: hsl(105, 100%, 35%);
+    }
+
+    a:hover {
+      color: hsl(197, 100%, 35%);
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      padding-top: 0;
+    }
+
+    pre {
+      margin-top: 0;
+    }
+
+    .small-screen-only {
+      display: none;
+    }
+
+    .blink {
+      animation: blink 1s step-start 0s infinite;
+    }
+
+    @keyframes blink {
+      50% {
+        opacity: 0.0
+      }
+    }
+
+    @media only screen and (max-width: 95ch) {
+      .big-screen-only {
         display: none;
       }
 
-      ul {
-        list-style: none;
+      .small-screen-only {
+        display: unset;
+      }
+    }
+
+    /* a good website needs to look great on paper! */
+    @media print {
+      html {
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(0, 0%, 0%);
       }
 
-      @media only screen and (max-width: 95ch) {
-        header pre {
-          display: none;
-        }
-
-        header h1,
-        footer {
-          display: block;
-        }
+      a {
+        color: hsl(0, 0%, 66%);
       }
+    }
+  </style>
+</head>
 
-      @media print {
-        html {
-          background-color: white;
-          color: black;
-        }
-
-        a {
-          color: darkgray;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <pre>
+<body>
+  <header>
+    <noscript>You do <b>NOT</b> need to enable JavaScript to see this site</noscript>
+    <pre>A:\site> type home.txt </pre>
+    <pre class="big-screen-only">
           _                               _             _____  _       _     _
     /\   | |                             | |           |  __ \(_)     | |   (_)
    /  \  | | ___  ___ ___  __ _ _ __   __| |_ __ ___   | |__) |_  __ _| |__  _
@@ -76,57 +101,62 @@
  / ____ \| |  __/\__ \__ \ (_| | | | | (_| | | | (_) | | | \ \| | (_| | | | | |
 /_/    \_\_|\___||___/___/\__,_|_| |_|\__,_|_|  \___/  |_|  \_\_|\__, |_| |_|_|
                                                                   __/ |
-     [ <a href="mailto:contact@alerighi.it">Email</a> || <a href="https://github.com/alerighi">GitHub</a> || <a href="https://instagram.com/alessandro.righi_">Instagram</a> || <a href="https://www.linkedin.com/in/alessandro-righi-051488158/">LinkedIn</a> || <a href="https://telegram.me/alerighi">Telegram</a> ]    |___/ <a href="#" onclick="window.print();return false">print()</a>
+    [ <a href="mailto:contact@alerighi.it">Email</a> || <a href="https://github.com/alerighi">GitHub</a> || <a href="https://instagram.com/alessandro.righi_">Instagram</a> || <a href="https://www.linkedin.com/in/alessandro-righi-051488158/">LinkedIn</a> || <a href="https://telegram.me/alerighi">Telegram</a> ]     |___/ <a href="#" onclick="window.print();return false">print()</a>
     </pre>
-      <h1># ALESSADRO RIGHI</h1>
-    </header>
-    <main>
-      <p>Hi! I'm a software engineer living in San Pietro in Cariano, Verona, Italy.</p>
-      <p>
-        I graduated in computer science in 2018 at the <a href="https://di.univr.it">University of Verona</a>, where now
-        I'm completing a master's degree in computer engineering, with the specialization in computer security.
-      </p>
-      <p>
-        Currently I work as a software engineer at <a href="https://iotinga.it">Iotinga</a>, a company specialized in IoT
-        and industry 4.0. Here I'm doing nearly everything, ranging from developing mobile applications, 
-        system administration tasks, designing the infrastructure, programming the devices firmware, 
-        and finally I'm learning to design electronic circuit boards. 
-      </p>
-      <p>
-        I define myself as an hacker, obviously in the good sense. I like trying out new things, learning how things work, 
-        taking apart, fixing and modifiying stuff, both in the software world and in the hardware world. 
-      </p>
-      <p>I'm a supporter of FLOSS, and a Linux user since 2011.</p>
-      <p>
-        I'm interested in cybersecurity and CTF, and i took part of the 2020 national cybersecurity challenge,
-        <a href="https://cyberchallenge.it">CyberChallenge.IT</a>, where with the team of my university we qualified 3rd at the nationa finals.
-        I took part of the <a href="https://teamitaly.eu/2020.html">2020 TeamItaly</a>.
-      </p>
-      <p>
-        I also participated in a couple of competitive programming competitions, most notably with my team we
-        partecipated and qualified 21th at the 
-        <a href="https://codingcompetitions.withgoogle.com/hashcode/archive/2019">Google Hashcode 2019 world finals</a> 
-        with the team of my university <q>UniVR be || !be</q>.
-        I'm a tutors for the
-        <a href="https://olimpiadi-informatica.it">Italian Olympiad in Informatics</a>.
-      </p>
-      <p>
-        Check out my
-        <a href="/cv-alessandro-righi.pdf">Curriculum Vitae</a> to know more, and also my
-        <a href="https://github.com/alerighi">GitHub profile</a>!
-      </p>
-    </main>
-    <footer>
-      <p>Contacts:</p>
-      <ul>
-        <li>* <a href="mailto:contact@alerighi.it">Email</a></li>
-        <li>* <a href="https://github.com/alerighi">GitHub</a></li>
-        <li>* <a href="https://instagram.com/alessandro.righi_">Instagram</a></li>
-        <li>* <a href="https://www.linkedin.com/in/alessandro-righi-051488158/">LinkedIn</a></li>
-        <li>* <a href="https://telegram.me/alerighi">Telegram</a></li>
-      </ul>
-      <p><b>**This site looks better on a PC!**</b></p>
-      <p><a href="#" onclick="window.print();return false">print(this)</a></p>
-    </footer>
-  </body>
+    <h1 class="small-screen-only"># ALESSADRO RIGHI</h1>
+  </header>
+  <main>
+    <h2><span class="small-screen-only">#</span># ABOUT ME</h2>
+    <p>
+      I'm a curios person, passionate about anything technical, always wanting to learn new things. I love to solve
+      real-world problems with elegant, simple, reliable solutions.
+    </p>
+    <p>
+      I graduated in computer science in 2018 at the <a href="https://di.univr.it">University of Verona</a>, where now
+      I'm completing a master's degree in computer engineering, with the specialization in computer security.
+    </p>
+    <p>
+      Meanwhile since 2020 I work as a software engineer at <a href="https://iotinga.it">Iotinga</a>, where I can
+      confront myself with challenging and stimolating projects, improving and learning new things everyday.
+    </p>
+    <p>
+      I'm interested in cybersecurity and I participated at the 2020 national cybersecurity challenge (<a
+        href="https://cyberchallenge.it">CyberChallenge.IT</a>), where I qualified first at the local selection and,
+      with the team of my university, 3rd at the nationa finals. Now I help as a tutor to organize the
+      local training for this initiative.
+    </p>
+    <p>
+      I also participated in competitive programming contests, most notably with my team <q>UniVR be || !be</q> I
+      qualified 21th at the
+      <a href="https://codingcompetitions.withgoogle.com/hashcode/archive/2019">Google Hashcode 2019 world finals</a> in
+      Dublin.
+      I'm a tutor for the
+      <a href="https://olimpiadi-informatica.it">Italian Olympiad in Informatics</a>.
+    </p>
+    <p>
+      Finally, I'm an hobbyist, I like doing DIY projects, fixing things, tering them apart to see how they are built,
+      hacking and modifying stuff to make it better and to recycle components that otherwise would have gone in the
+      dumpster.
+    </p>
+    <p>
+      Check out my
+      <a href="/cv-alessandro-righi.pdf">Curriculum Vitae</a> to learn more, and also my
+      <a href="https://github.com/alerighi">GitHub profile</a>!<span class="blink big-screen-only">█</span>
+    </p>
+  </main>
+  <footer class="small-screen-only">
+    <p>--- CONTACT ME ---</p>
+    <ul>
+      <li>* <a href="mailto:contact@alerighi.it">Email</a></li>
+      <li>* <a href="https://github.com/alerighi">GitHub</a></li>
+      <li>* <a href="https://instagram.com/alessandro.righi_">Instagram</a></li>
+      <li>* <a href="https://www.linkedin.com/in/alessandro-righi-051488158/">LinkedIn</a></li>
+      <li>* <a href="https://telegram.me/alerighi">Telegram</a></li>
+      <li>* <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Metaverse</a></li>
+    </ul>
+    <p><b>**This site looks better on a IBM-compatible PC**</b><span class="blink">█</span></p>
+    </p>
+  </footer>
+</body>
+
 </html>
