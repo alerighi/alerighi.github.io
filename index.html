@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+---
+---
+
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -116,17 +119,17 @@
       real-world problems with elegant, simple, reliable solutions.
     </p>
     <p>
-      I got a masters's degree in computer science and engineering at the <a href="https://www.di.univr.it">University of Verona</a>, 
+      I got a masters's degree in computer science and engineering at the <a href="https://www.di.univr.it">University of Verona</a>,
       where I also got a bachelor's degree in computer science.
     </p>
     <p>
-      Since 2020 I work as a software engineer at <a href="https://iotinga.it">Iotinga</a>, primarely in the field 
+      Since 2020 I work as a software engineer at <a href="https://iotinga.it">Iotinga</a>, primarely in the field
       of connected IoT devices. Here I can confront myself with challenging and stimulating projects, improving and learning new things everyday.
     </p>
     <p>
       I'm interested in cybersecurity and I participated at the 2020 national cybersecurity challenge (<a
         href="https://cyberchallenge.it">CyberChallenge.IT</a>), where I qualified first at the local selection and,
-      with the team of my university, 3rd at the national finals. I'm now an instructur and I organize the local training 
+      with the team of my university, 3rd at the national finals. I'm now an instructur and I organize the local training
       for the University of Verona venue.
     </p>
     <p>
@@ -146,6 +149,13 @@
       <a href="/cv-alessandro-righi.pdf">Curriculum Vitae</a> to learn more, and also my
       <a href="https://github.com/alerighi">GitHub profile</a>!<span class="blink big-screen-only">█</span>
     </p>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
   </main>
   <footer class="small-screen-only">
     <p>--- CONTACT ME ---</p>
