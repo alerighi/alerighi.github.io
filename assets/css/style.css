@@ -1,0 +1,84 @@
+:root {
+  --blue: #608bf6;
+  --black: #1c1c1c;
+  --green: #39e600;
+  --green-darker: #2db300;
+}
+
+html {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12pt;
+  line-height: 150%;
+  background-color: var(--black);
+  color: var(--green);
+}
+
+body {
+  padding: 8px;
+  max-width: 80ch;
+  margin: auto;
+}
+
+a {
+  color: var(--green-darker);
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+pre {
+  margin-top: 0;
+  line-height: normal;
+}
+
+.small-screen-only {
+  display: none;
+}
+
+.blink {
+  animation: blink 1s step-start 0s infinite;
+}
+
+.header {
+  display: flex;
+  color: var(--blue);
+  font-weight: 550;
+  font-size: 14pt;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 95ch) {
+  .big-screen-only {
+    display: none;
+  }
+
+  .small-screen-only {
+    display: unset;
+  }
+}
+
+/* a good website needs to look great on paper! */
+@media print {
+  html {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+  }
+
+  a {
+    color: hsl(0, 0%, 66%);
+  }
+}
