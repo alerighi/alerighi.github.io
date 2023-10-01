@@ -1,8 +1,10 @@
 :root {
   --blue: #608bf6;
+  --blue-darker: #3c70f3;
   --black: #1c1c1c;
   --green: #39e600;
   --green-darker: #2db300;
+  --grey: #949494;
 }
 
 html {
@@ -14,9 +16,33 @@ html {
 }
 
 body {
-  padding: 8px;
-  max-width: 80ch;
+  display: flex;
+  flex-direction: column;
   margin: auto;
+  align-items: center;
+  width: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: auto;
+  width: 100%;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+}
+
+main, footer {
+  max-width: 80ch;
+  padding: 8px;
 }
 
 a {
@@ -53,6 +79,31 @@ pre {
   font-size: 14pt;
   width: 100%;
   justify-content: space-between;
+  max-width: 80ch;
+}
+
+.nav-key {
+  color: var(--blue);
+}
+
+.nav-key > a {
+  color: var(--blue);
+}
+
+.nav-key > a:hover {
+  color: var(--blue-darker);
+}
+
+.bottom-bar {
+  color: var(--blue);
+  border-top: 1px solid var(--blue);
+  margin-top: 9px;
+}
+
+.gray-bg-text {
+  color: var(--black);
+  background-color: var(--grey);
+  font-weight: 600;
 }
 
 @keyframes blink {
