@@ -76,7 +76,6 @@ pre {
   display: flex;
   color: var(--blue);
   font-weight: 550;
-  font-size: 14pt;
   width: 100%;
   justify-content: space-between;
   max-width: 80ch;
@@ -131,5 +130,13 @@ pre {
 
   a {
     color: hsl(0, 0%, 66%);
+  }
+
+  .container {
+    overflow: unset;
+  }
+
+  footer, .header {
+    visibility: hidden;
   }
 }
