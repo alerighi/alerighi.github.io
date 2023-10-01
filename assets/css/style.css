@@ -20,7 +20,8 @@ body {
   flex-direction: column;
   margin: auto;
   align-items: center;
-  width: 100%;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 body, html {
@@ -31,18 +32,23 @@ body, html {
   display: flex;
   flex-direction: column;
   flex: 1;
-  overflow: auto;
   width: 100%;
   align-items: center;
+  overflow: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.container::-webkit-scrollbar {
+  display: none;
 }
 
 footer {
   width: 100%;
 }
 
-main, footer {
+main, footer, .header {
   max-width: 80ch;
-  padding: 8px;
 }
 
 a {
