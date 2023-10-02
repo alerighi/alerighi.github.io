@@ -1,3 +1,4 @@
+/* these colors were taken from a screenshot of an AS/400 5250 terminal */
 :root {
   --blue: #608bf6;
   --blue-darker: #3c70f3;
@@ -28,18 +29,14 @@ body, html {
   height: 100%;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
+main {
   flex: 1;
-  width: 100%;
-  /* align-items: center; */
   overflow: auto;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-.container::-webkit-scrollbar {
+main::-webkit-scrollbar {
   display: none;
 }
 
@@ -49,9 +46,22 @@ footer {
 }
 
 main, footer, header {
+  width: 100%;
   max-width: 80ch;
   margin-left: auto;
   margin-right: auto;
+}
+
+h1::before {
+  content: "# ";
+}
+
+h2::before {
+  content: "## ";
+}
+
+h3::before {
+  content: "### ";
 }
 
 a {
@@ -91,15 +101,11 @@ header {
   margin-bottom: 9px;
 }
 
-.nav-key {
+.blue {
   color: var(--blue);
 }
 
-.nav-key > a {
-  color: var(--blue);
-}
-
-.nav-key > a:hover {
+.blue-hover:hover {
   color: var(--blue-darker);
 }
 
@@ -117,6 +123,12 @@ header {
 
 .text-center {
   text-align: center;
+}
+
+.footer-top {
+  border-bottom: 1px solid var(--green);
+  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 @keyframes blink {

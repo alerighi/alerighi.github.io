@@ -1,0 +1,13 @@
+---
+layout: default
+title: "alerighi - blog"
+---
+
+{% for post in site.posts %}
+    <article>
+        <h2>{{ post.title }}</h2>
+        {{ post.excerpt }}
+        <a href="{{ post.url }}">Continua...</a>
+    </article>
+{% endfor %}
+
