@@ -1,4 +1,4 @@
-# alerighi.github.io
+# alerighi.it
 
 My personal website, complete of print functionality!
 
