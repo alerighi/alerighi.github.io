@@ -10,7 +10,6 @@ fn_keys:
   - key: F3
     text: Exit
     href: "/blog"
-published: false
 ---
 
 This is my first blog post. I hope to have the time and willingness to publish something on it. 

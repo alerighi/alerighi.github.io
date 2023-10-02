@@ -9,21 +9,24 @@ fn_keys:
     href: "#"
     onclick: "window.print(); return false"
   - key: F2
+    text: Blog
+    href: "/blog"
+  - key: F3
     text: Email
     href: "mailto:contact@alerighi.it"
-  - key: F3
+  - key: F4
     text: Telegram
     href: "https://telegram.me/alerighi"
-  - key: F4
+  - key: F5
     text: GitHub
     href: "https://github.com/alerighi"
-  - key: F5
+  - key: F6
     text: LinkedIn
     href: "https://www.linkedin.com/in/alessandro-righi-051488158/"
-  - key: F6
+  - key: F7
     text: Resume
     href: "/cv-alessandro-righi.pdf"
-  - key: F7
+  - key: F8
     text: Instagram
     href: "https://instagram.com/alessandro.righi_"
 ---
