@@ -1,29 +1,58 @@
 <!doctype html>
-<html lang="it">
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Alessandro Righi personal blog">
-    <meta name="author" content="Alessandro Righi">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alessandro Righi personal website">
+  <meta name="author" content="Alessandro Righi">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#1c1c1c">
 
-    <!-- open graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://alerighi.it">
-    <meta property="og:title" content="Alessandro Righi">
-    <meta property="og:image" content="https://alerighi.it/assets/profile.jpeg">
-    <meta property="og:description" content="Alessandro Righi personal blog">
+  <!-- open graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alerighi.it/">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:image" content="https://alerighi.it/assets/img/profile.jpeg">
+  <meta property="og:description" content="Alessandro Righi personal website">
 
-    <!-- sorry if your browser doesn't support SVG favicons (thanks Safari) -->
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <!-- sorry if your browser doesn't support SVG favicons (thanks Safari) -->
+  <link rel="icon" href="/assets/icon/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-touch-icon.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <link rel="stylesheet" href="/assets/css/style.css">
 
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/main.js" defer></script>
+
+  <title>{{ page.title }}</title>
 </head>
+
 <body>
-    <main>
-        <h1>{{ page.title }}</h1>
-        {{ content }}
-    </main>
+  <header>
+    <span>{{ page.title_left }}</span>
+    <span class="text-center">{{ page.title_center | default: page.title }}</span>
+  </header>
+  <main>
+    <noscript>You do <b>NOT</b> need to enable JavaScript to see this site</noscript>
+    {{ content }}
+  </main>
+  <footer>
+    {% if page.footer_top %}
+    <div class="footer-top">
+        {{ page.footer_top }}
+    </div>
+    {% endif %}
+    <div>
+    {% for fn in page.fn_keys %}
+      <span class="nav-key blue"><span class="gray-bg-text">{{ fn.key }}</span>=<a class="blue blue-hover" href="{{ fn.href }}" onclick="{{ fn.onclick }}">{{ fn.text }}</a></span>
+    {% endfor %}
+    </div>
+    <div class="bottom-bar">
+      <span>{{ page.footer_text | default: "ONLINE" }}</span>
+    </div>
+  </footer>
 </body>
+
 </html>

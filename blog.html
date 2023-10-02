@@ -1,13 +1,22 @@
 ---
 layout: default
-title: "alerighi - blog"
+title: "Alerighi Blog Main Menu"
+title_left: "BLOG"
+footer_top: 'Selection or command:<br>===> <span class="blink big-screen-only">█</span>'
+fn_keys:
+  - key: F1
+    text: Print
+    href: "#"
+    onclick: "window.print(); return false"
+  - key: F3
+    text: Exit
+    href: "/"
 ---
 
+Select a post to view: 
+<ul>
 {% for post in site.posts %}
-    <article>
-        <h2>{{ post.title }}</h2>
-        {{ post.excerpt }}
-        <a href="{{ post.url }}">Continua...</a>
-    </article>
+<li class="nav-key"><span>{{ forloop.index }}</span>. <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
+</ul>
 
