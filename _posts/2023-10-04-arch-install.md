@@ -182,7 +182,7 @@ passwd: password updated successfully
 Generating locales...
   en_US.UTF-8...
 [root@archiso /]# echo LANG=en_US.UTF-8 >> /etc/locale.conf # or whatever locale you choose
-[roeot@archiso /]# ln -s /usr/share/zoneinfo/Europe/Rome /etc/localtime # change with your timezone
+[root@archiso /]# ln -s /usr/share/zoneinfo/Europe/Rome /etc/localtime # change with your timezone
 [root@archiso /]# echo archbook > /etc/hostname # choose your hostname
 [root@archiso /]# vim /etc/hosts # and don't forget the hosts file
 # add a line like so: 
