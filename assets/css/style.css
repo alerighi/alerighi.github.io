@@ -131,6 +131,23 @@ header {
   margin-bottom: 4px;
 }
 
+pre.highlight {
+  border: 1px solid var(--blue);
+  padding: 9px;
+  font-size: 11pt;
+  overflow: scroll;
+}
+
+table, td, tr, th {
+  border: 1px solid var(--blue);
+  border-collapse: collapse;
+  padding: 9px;
+}
+
+th {
+  border-bottom: 2px solid var(--blue);
+}
+
 @keyframes blink {
   50% {
     opacity: 0;

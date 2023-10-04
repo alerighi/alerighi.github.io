@@ -10,11 +10,11 @@
   <meta name="theme-color" content="#1c1c1c">
 
   <!-- open graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://alerighi.it/">
+  <meta property="og:type" content="{{ og_type }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:image" content="https://alerighi.it/assets/img/profile.jpeg">
-  <meta property="og:description" content="Alessandro Righi personal website">
+  <meta property="og:image" content="{{ page.og_image }}">
+  <meta property="og:description" content="{{ page.og_description }}">
 
   <!-- sorry if your browser doesn't support SVG favicons (thanks Safari) -->
   <link rel="icon" href="/assets/icon/favicon.svg" type="image/svg+xml">

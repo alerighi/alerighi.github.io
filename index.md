@@ -29,6 +29,8 @@ fn_keys:
   - key: F8
     text: Instagram
     href: "https://instagram.com/alessandro.righi_"
+og_image: https://alerighi.it/assets/img/profile.jpeg
+og_description: Alessandro Righi personal homepage
 ---
 
 <pre class="big-screen-only">
