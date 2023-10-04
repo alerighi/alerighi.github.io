@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "ArchLinux install with encrypted BTRFS"
-title_left: HELLO
+title_left: ARCHINST
 fn_keys:
   - key: F1
     text: Print
