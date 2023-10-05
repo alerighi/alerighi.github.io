@@ -14,14 +14,30 @@ fn_keys:
   - key: F3
     text: Exit
     href: "/games"
+  - key: F4
+    text: Music on/off
+    href: "#"
+    onclick: "playPauseMusic(); return false"
 og_description: A simple browser tetris game
 ---
 
+<audio id="music" autoplay loop>
+  <source src="/assets/audio/tetris.mp3" type="audio/mpeg" />
+</audio>
 <div class="centering">
   <div id="tetris"></div>
 </div>
 <script src="/assets/js/tetris.js"></script>
 <script>
+function playPauseMusic() {
+  const music = document.getElementById("music")
+  if (music.paused) {
+    music.play()
+  } else {
+    music.pause()
+  }
+}
+
 game = new Game(document.getElementById('tetris'));
 </script>
 
