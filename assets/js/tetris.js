@@ -2,9 +2,6 @@
 
 const GRID_X = 10
 const GRID_Y = 22
-const SQUARE_SIZE = 20
-const CANVAS_SIZE_X = SQUARE_SIZE * GRID_X
-const CANVAS_SIZE_Y = SQUARE_SIZE * GRID_Y
 
 const KEY = {
   LEFT: "ArrowLeft",
@@ -104,8 +101,6 @@ class Game {
     this.nextPiece = new Piece()
     this.level = 1
     this.score = 0
-    this.bottom = 0
-    this.interval
     this.speed = 1000
     this.state = GAME_STATE.RUNNING
     this.grid = []

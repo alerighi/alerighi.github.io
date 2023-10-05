@@ -1,0 +1,106 @@
+---
+layout: default
+title: Snake
+title_left: SNAKE
+fn_keys:
+  - key: F1
+    text: New Game
+    href: "#"
+    onclick: "newGame(); return false"
+  - key: F2
+    text: Pause
+    href: "#"
+    onclick: "togglePause(); return false"
+  - key: F3
+    text: Exit
+    href: "/games"
+  - key: F4
+    text: Faster
+    href: "#"
+    onclick: "game.changeSpeed(game.speed - 10); return false"
+  - key: F5
+    text: Slower
+    href: "#"
+    onclick: "game.changeSpeed(game.speed + 10); return false"
+og_description: A simple browser snake game
+---
+
+<!-- <audio id="music" autoplay loop>
+  <source src="/assets/audio/tetris.mp3" type="audio/mpeg" />
+</audio> -->
+<div class="centering">
+  <div id="snake"></div>
+</div>
+<script src="/assets/js/snake.js"></script>
+<script>
+  function newGame() {
+    game.newGame()
+    // const music = document.getElementById("music")
+    // music.play()
+  }
+
+  function playPauseMusic() {
+    if (game.state !== GAME_STATE.RUNNING) {
+      return
+    }
+    const music = document.getElementById("music")
+    if (music.paused) {
+      music.play()
+    } else {
+      music.pause()
+    }
+  }
+
+  function togglePause() {
+    game.togglePause()
+    // const music = document.getElementById("music")
+    // if (game.state === GAME_STATE.PAUSED) {
+    //   music.pause()
+    // } else {
+    //   music.play()
+    // }
+  }
+
+  function stopMusic() {
+    // const music = document.getElementById("music")
+    // music.pause()
+    // music.currentTime = 0
+  }
+
+  game = new Game(document.getElementById("snake"), stopMusic)
+</script>
+
+<style>
+  .centering {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .square {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+
+  .sq-piece {
+    background-color: var(--green);
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .game {
+    border: 1px solid var(--blue);
+    padding: 9px;
+    width: calc(20px * 30 - 9px);
+    margin: auto;
+  }
+
+  .bottom-text {
+    margin: 0;
+  }
+</style>
