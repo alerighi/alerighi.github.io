@@ -13,6 +13,8 @@ fn_keys:
 og_description: Practical guide on how to install ArchLinux on BTRFS with encrypted FS
 ---
 
+# ArchLinux install with encrypted BTRFS
+
 In this article I will show you how to install ArchLinux on a BTRFS drive with an encrypted fs. I used this setup multiple times and I consider it solid. Since with the official documentation is not easy to arrive at these conclusion, and with the input from a friend that asked for it, here I write down what I know.
 
 ## Prerequisites
