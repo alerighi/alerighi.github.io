@@ -91,9 +91,9 @@ class Game {
 
     this.scoreElement.innerText = `Length: ${this.snake.length}`
     if (this.state === GAME_STATE.ENDED) {
-      this.infoLine.innerText += `Game Over, press F1 to restart`
+      this.infoLine.innerText = `Game Over, press F1 to restart`
     } else if (this.state === GAME_STATE.PAUSED) {
-      this.infoLine.innerText += `Game Paused, press F2 to resume`
+      this.infoLine.innerText = `Game Paused, press F2 to resume`
     } else {
       this.infoLine.innerText = ""
     }
