@@ -77,7 +77,8 @@ class Piece {
 
 class Game {
   /** @param element {HTMLDivElement} */
-  constructor(element) {
+  constructor(element, onEnd) {
+    this.onEnd = onEnd
     this.game = document.createElement("div")
     this.game.classList.add("game")
     this.scoreElement = document.createElement("p")
@@ -189,6 +190,9 @@ class Game {
 
     if (this.gameIsLost()) {
       this.state = GAME_STATE.ENDED
+      if (this.onEnd) {
+        this.onEnd()
+      }
     } else {
       this.swapPieces()
     }

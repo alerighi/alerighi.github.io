@@ -6,11 +6,11 @@ fn_keys:
   - key: F1
     text: New Game
     href: "#"
-    onclick: "game.newGame(); return false"
+    onclick: "newGame(); return false"
   - key: F2
     text: Pause
     href: "#"
-    onclick: "game.togglePause(); return false"
+    onclick: "togglePause(); return false"
   - key: F3
     text: Exit
     href: "/games"
@@ -29,16 +29,41 @@ og_description: A simple browser tetris game
 </div>
 <script src="/assets/js/tetris.js"></script>
 <script>
-function playPauseMusic() {
-  const music = document.getElementById("music")
-  if (music.paused) {
+  function newGame() {
+    game.newGame()
+    const music = document.getElementById("music")
     music.play()
-  } else {
-    music.pause()
   }
-}
 
-game = new Game(document.getElementById('tetris'));
+  function playPauseMusic() {
+    if (game.state !== GAME_STATE.RUNNING) {
+      return
+    }
+    const music = document.getElementById("music")
+    if (music.paused) {
+      music.play()
+    } else {
+      music.pause()
+    }
+  }
+
+  function togglePause() {
+    game.togglePause()
+    const music = document.getElementById("music")
+    if (game.state === GAME_STATE.PAUSED) {
+      music.pause()
+    } else {
+      music.play()
+    }
+  }
+
+  function stopMusic() {
+    const music = document.getElementById("music")
+    music.pause()
+    music.currentTime = 0
+  }
+
+  game = new Game(document.getElementById("tetris"), stopMusic)
 </script>
 
 <style>
