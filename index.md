@@ -5,9 +5,8 @@ title_center: IBM AS/400 Main Menu
 title_left: MAIN
 fn_keys:
   - key: F1
-    text: Print
-    href: "#"
-    onclick: "window.print(); return false"
+    text: Games
+    href: "/games"
   - key: F2
     text: Blog
     href: "/blog"
@@ -29,6 +28,10 @@ fn_keys:
   - key: F8
     text: Instagram
     href: "https://instagram.com/alessandro.righi_"
+  - key: F12
+    text: Print
+    href: "#"
+    onclick: "window.print(); return false"
 og_image: https://alerighi.it/assets/img/profile.jpeg
 og_description: Alessandro Righi personal homepage
 ---

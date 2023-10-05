@@ -1,0 +1,61 @@
+---
+layout: default
+title: Tetris
+title_left: TETRIS
+fn_keys:
+  - key: F1
+    text: New Game
+    href: "#"
+    onclick: "game.newGame(); return false"
+  - key: F2
+    text: Pause
+    href: "#"
+    onclick: "game.togglePause(); return false"
+  - key: F3
+    text: Exit
+    href: "/games"
+og_description: A simple browser tetris game
+---
+
+<div class="centering">
+  <div id="tetris"></div>
+</div>
+<script src="/assets/js/tetris.js"></script>
+<script>
+game = new Game(document.getElementById('tetris'));
+</script>
+
+<style>
+  .centering {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .square {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+
+  .sq-piece {
+    background-color: var(--green);
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .game {
+    border: 1px solid var(--blue);
+    padding: 9px;
+    width: calc(20px * 10 - 9px);
+    margin: auto;
+  }
+
+  .bottom-text {
+    margin: 0;
+  }
+</style>

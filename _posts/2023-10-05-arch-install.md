@@ -3,13 +3,13 @@ layout: default
 title: "ArchLinux install with encrypted BTRFS"
 title_left: ARCHINST
 fn_keys:
-  - key: F1
-    text: Print
-    href: "#"
-    onclick: "window.print(); return false"
   - key: F3
     text: Exit
     href: "/blog"
+  - key: F12
+    text: Print
+    href: "#"
+    onclick: "window.print(); return false"
 og_description: Practical guide on how to install ArchLinux on BTRFS with encrypted FS
 ---
 

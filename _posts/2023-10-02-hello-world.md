@@ -3,13 +3,14 @@ layout: default
 title: "Hello, world"
 title_left: HELLO
 fn_keys:
-  - key: F1
-    text: Print
-    href: "#"
-    onclick: "window.print(); return false"
   - key: F3
     text: Exit
     href: "/blog"
+  - key: F12
+    text: Print
+    href: "#"
+    onclick: "window.print(); return false"
+
 ---
 
 This is my first blog post. I hope to have the time and willingness to publish something on it. 
