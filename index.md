@@ -23,7 +23,7 @@ fn_keys:
     text: LinkedIn
     href: "https://www.linkedin.com/in/alessandro-righi-051488158/"
   - key: F7
-    text: Resume
+    text: Curriculum Vitae
     href: "/cv-alessandro-righi.pdf"
   - key: F8
     text: Instagram
