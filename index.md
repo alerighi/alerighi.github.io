@@ -24,7 +24,7 @@ fn_keys:
     href: "https://www.linkedin.com/in/alessandro-righi-051488158/"
   - key: F7
     text: Curriculum Vitae
-    href: "/cv-alessandro-righi.pdf"
+    href: "/cv/cv-alessandro-righi.pdf"
   - key: F8
     text: Instagram
     href: "https://instagram.com/alessandro.righi_"
@@ -72,6 +72,6 @@ Finally, I'm an hobbyist, I like doing DIY projects, fixing things, tearing them
 are built, hacking and modifying stuff to make it better and to recycle components that otherwise would 
 have gone in the dumpster.
 
-Check out my [Curriculum Vitae](/cv-alessandro-righi.pdf) to learn more, and also my
+Check out my [Curriculum Vitae](/cv/cv-alessandro-righi.pdf) to learn more, and also my
 [GitHub profile](https://github.com/alerighi)!<span class="blink big-screen-only">█</span>
 
