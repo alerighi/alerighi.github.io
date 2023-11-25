@@ -6,6 +6,8 @@
   --green: #39e600;
   --green-darker: #2db300;
   --grey: #949494;
+  --magenta: rgb(141, 69, 170);
+  --yellow: #aa6945;
 }
 
 html {
@@ -181,5 +183,69 @@ th {
 
   main {
     overflow: unset;
+  }
+}
+
+
+
+.highlight {
+  color: var(--green-darker);
+
+  table td { padding: 5px; }
+  table pre { margin: 0; }
+  .w {
+    color: var(--green);
+  }
+  .c,  .cd,  .cm,  .c1,  .cs {
+    color: var(--blue);
+  }
+  .cp {
+    color: var(--green);
+  }
+  .o,  .ow {
+    color: var(--magenta);
+  }
+  .p,  .pi {
+    color: var(--green);
+  }
+  .gi {
+    color: var(--yellow);
+  }
+  .gd {
+    color: var(--magenta);
+  }
+  .gh {
+    color: var(--magenta);
+    font-weight: bold;
+  }
+  .k,  .kn,  .kp,  .kr,  .kv {
+    color: var(--magenta);
+  }
+  .kc, .kt, .kd {
+    color: var(--magenta);
+  }
+  .s,  .sb,  .sc,  .sd,  .s2,  .sh,  .sx,  .s1 {
+    color: var(--yellow);
+  }
+  .sr {
+    color: var(--yellow);
+  }
+  .si, .se, .dl {
+    color: var(--yellow);
+  }
+  .nt, .nn,  .nc, .no{
+    color: var(--magenta);
+  }
+  .na {
+    color: var(--green);
+  }
+  .m,  .mf,  .mh,  .mi,  .il,  .mo,  .mb,  .mx {
+    color: var(--grey);
+  }
+  .ss {
+    color: var(--yellow);
+  }
+  .nb {
+    font-weight: bold;
   }
 }

@@ -1,1 +1,5 @@
 excerpt_separator: "<!--more-->"
+highlighter: rouge
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
