@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Noto Sans Mono Light";
+  src: url("/assets/fonts/NotoSansMono-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans Mono Bold";
+  src: url("/assets/fonts/NotoSansMono-Bold.ttf") format("truetype");
+}
+
 /* these colors were taken from a screenshot of an AS/400 5250 terminal */
 :root {
   --blue: #608bf6;
@@ -8,10 +18,11 @@
   --grey: #949494;
   --magenta: rgb(141, 69, 170);
   --yellow: #aa6945;
+  --content-max-width: 768px;
 }
 
 html {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Noto Sans Mono Light", Courier, monospace;
   font-size: 12pt;
   line-height: 150%;
   background-color: var(--black);
@@ -50,7 +61,7 @@ footer {
 
 #container, footer, header {
   width: 100%;
-  max-width: 80ch;
+  max-width: var(--content-max-width);
   margin-left: auto;
   margin-right: auto;
 }
@@ -100,8 +111,16 @@ header {
   color: var(--blue);
   font-weight: 550;
   width: 100%;
-  max-width: 80ch;
+  max-width: var(--content-max-width);
   margin-bottom: 9px;
+}
+
+h1, h2, h3, header, .bottom-bar {
+  font-family: "Noto Sans Mono Bold";
+}
+
+h1, h2, h3 {
+  color: var(--green-darker);
 }
 
 .blue {
