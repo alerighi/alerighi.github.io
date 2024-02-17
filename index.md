@@ -12,7 +12,7 @@ fn_keys:
     href: "/blog"
   - key: F3
     text: Email
-    href: "mailto:contact@alerighi.it"
+    href: "mailto:info@alerighi.it"
   - key: F4
     text: Telegram
     href: "https://telegram.me/alerighi"
@@ -59,9 +59,9 @@ I then studied Computer Science and Engineering at [University of Verona](https:
 where I also got first a bachelor's and then master's degree.
 
 In 2020 I started working as a software engineer in [Iotinga](https://iotinga.it), a 
-small company specialized in IoT and IIoT devices. Here I did confront myself with 
+young company specialized in IoT and IIoT devices. Here I did confront myself with
 challenging and stimulating projects, improving and learning new things everyday.
-I'm now holding a position as an Applied Research Director in the same company.
+I'm now holding a position as an Applied Research Director at the same company.
 
 One of my passions is cybersecurity: I participated at the 2020 national cybersecurity 
 challenge [CyberChallenge.IT](https://cyberchallenge.it)), where I qualified first at 
@@ -69,16 +69,15 @@ the local selection and, with the team of my university, 3rd at the national fin
 I'm now one of the main organizers of the initiative at the University of Verona venue.
 
 In the past I also participated in competitive programming contests, most notably with 
-my team I qualified 21th at the Google Hashcode 2019 world finals in Dublin.
+my team I qualified 21th at the Google HashCode 2019 world finals in Dublin.
 I worked as a tutor for the [Italian Olympiad in Informatics](https://olimpiadi-informatica.it) till 2022.
         
 Finally, I'm an hobbyist, I like doing DIY projects, fixing things, tearing them apart to see how they
 are built, hacking and modifying stuff to make it better and to recycle components that otherwise would 
 have gone in the dumpster.
 
-To know more, check out my [Curriculum Vitae](/cv/cv-alessandro-righi.pdf), my [blog](/blog), and finally my
-[GitHub profile](https://github.com/alerighi)!
+To know more, check out my [Curriculum Vitae](/cv/cv-alessandro-righi.pdf), my [blog](/blog), 
+and finally my [GitHub profile](https://github.com/alerighi)!
 
-To contact me about professional opportunities, to which I'm always open, or anything else, send me an 
-[email](mailto:alessandro.righi@alerighi.it).<span class="blink big-screen-only">█</span>
-
+To contact me about professional opportunities, to which I'm always open, or anything else, 
+write me an [email](mailto:info@alerighi.it).<span class="blink big-screen-only">█</span>
