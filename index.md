@@ -49,29 +49,36 @@ og_description: Alessandro Righi personal homepage
 
 ## ABOUT ME
 
-I'm a curios person, passionate about anything technical, always wanting to learn 
+I'm an Information Engineer, passionate about anything technical, always wanting to learn 
 new things. I love to solve real-world problems with elegant, simple, reliable solutions.
 
-I got a masters's degree in computer science and engineering at the 
-[University of Verona](https://www.di.univr.it), where I also got a bachelor's degree in computer science.
+When I was a child I always had a screwdriver in my hands, taking apart devices to see 
+how they work. I was the child that used to fix the technical issue of my parents.
 
-Since 2020 I work as a software engineer at [Iotinga](https://iotinga.it), primarily in
-the field of connected IoT devices. Here I can confront myself with challenging and 
-stimulating projects, improving and learning new things everyday.
+I then studied Computer Science and Engineering at [University of Verona](https://www.di.univr.it), 
+where I also got first a bachelor's and then master's degree.
 
-I'm interested in cybersecurity and I participated at the 2020 national cybersecurity 
+In 2020 I started working as a software engineer in [Iotinga](https://iotinga.it), a 
+small company specialized in IoT and IIoT devices. Here I did confront myself with 
+challenging and stimulating projects, improving and learning new things everyday.
+I'm now holding a position as an Applied Research Director in the same company.
+
+One of my passions is cybersecurity: I participated at the 2020 national cybersecurity 
 challenge [CyberChallenge.IT](https://cyberchallenge.it)), where I qualified first at 
 the local selection and, with the team of my university, 3rd at the national finals. 
-I'm now an instructor and I organize the local training for the University of Verona venue.
+I'm now one of the main organizers of the initiative at the University of Verona venue.
 
-I also participated in competitive programming contests, most notably with my team <q>UniVR be || !be</q> 
-I qualified 21th at the Google Hashcode 2019 world finals in Dublin.
+In the past I also participated in competitive programming contests, most notably with 
+my team I qualified 21th at the Google Hashcode 2019 world finals in Dublin.
 I worked as a tutor for the [Italian Olympiad in Informatics](https://olimpiadi-informatica.it) till 2022.
         
 Finally, I'm an hobbyist, I like doing DIY projects, fixing things, tearing them apart to see how they
 are built, hacking and modifying stuff to make it better and to recycle components that otherwise would 
 have gone in the dumpster.
 
-Check out my [Curriculum Vitae](/cv/cv-alessandro-righi.pdf) to learn more, and also my
-[GitHub profile](https://github.com/alerighi)!<span class="blink big-screen-only">█</span>
+To know more, check out my [Curriculum Vitae](/cv/cv-alessandro-righi.pdf), my [blog](/blog), and finally my
+[GitHub profile](https://github.com/alerighi)!
+
+To contact me about professional opportunities, to which I'm always open, or anything else, send me an 
+[email](mailto:alessandro.righi@alerighi.it).<span class="blink big-screen-only">█</span>
 
