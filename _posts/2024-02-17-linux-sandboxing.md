@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Sandboxing processes in Linux using namespaces"
+title: "Linux sandboxing with namespaces"
 title_left: SANDBOX
 fn_keys:
   - key: F3
@@ -13,7 +13,7 @@ fn_keys:
 og_description: A practical guide on sandboxing processing in Linux using the namespaces functionality
 ---
 
-# Sandboxing processes in Linux using namespaces
+# Linux sandboxing with namespaces
 
 In this series of articles I will write how I've made [tabox](https://github.com/alerighi/tabox), a 
 program that sandboxes an executable in Linux. To do so, we will recreate a similar program in C, 
