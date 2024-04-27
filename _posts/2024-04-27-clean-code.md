@@ -39,7 +39,7 @@ ErrorCode WiFi_Connect(WiFiNetwork * network)
         error = wifi_init_interface();
         if (error != SUCCESS)
         {
-            LOG_ERROR("error init Wi-Fi interface");
+            LOG_ERROR("error while initializing the Wi-Fi interface, check the state of the MCU");
         }
         else
         {
@@ -48,7 +48,7 @@ ErrorCode WiFi_Connect(WiFiNetwork * network)
             // set the configuration
             error = wifi_set_config(&net);
             if (error != SUCCESS) {
-                  LOG_ERROR("error setting up Wi-Fi configuration %d", error);
+                  LOG_ERROR("error setting up Wi-Fi configuration, the error code is %d", error);
             }
         }
     }
@@ -74,6 +74,7 @@ Let's remove the things that are useless:
 - in C, unlike C++, there is absolutely no need to cast out a `void *` to another pointer type. It just doesn't make any difference to do so, so we may as well eliminate the cast
 - if a `NULL` argument is passed to the `free()` function, the call will succeed. So there is absolutely no reason to test the argument passed to free for `NULL`
 - casting a return value of a function to `(void)` may make some linters happy. I would rather configure the linter with more sane rules, since checking **every** return value just adds a ton of noise
+- log messages waste resources, and code space. Try to be short and get right to the point, while providing enough information to debug the issue
 
 Now, these are trivial things, that overall make code readability better. Let's drive further into it: error handling.
 
@@ -95,7 +96,7 @@ ErrorCode WiFi_Connect(WiFiNetwork *network)
     ErrorCode error = wifi_init_interface();
     if (error != SUCCESS)
     {
-        LOG_ERROR("error init Wi-Fi interface");
+        LOG_ERROR("wifi_init_interface err %d", error);
         goto error;
     }
 
@@ -104,7 +105,7 @@ ErrorCode WiFi_Connect(WiFiNetwork *network)
     error = wifi_set_config(&net);
     if (error != SUCCESS)
     {
-        LOG_ERROR("error setting up Wi-Fi configuration %d", error);
+        LOG_ERROR("wifi_set_config err %d", error);
     }
 
 error:
