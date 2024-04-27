@@ -23,13 +23,13 @@ You see, you may not be an electrician, but if you open an electrical panel you 
 
 To me code follows the same rules. Writing code is a creative process, the result of this process can look nice or ugly. Here is an example that I've made up from code that I've seen in my day job:
 
-```C
+```c
 ErrorCode WiFi_Connect(WiFiNetwork * network)
 {
     ErrorCode error = SUCCESS;
 
-    wifi_network_t *net = (wifi_network_t *)calloc(1, sizeof(wifi_network_t));
-    if (net == NULL)
+    wifi_network_t * net = (wifi_network_t *)calloc(1, sizeof(wifi_network_t));
+    if (net==NULL)
     {
         error = FAILURE;
     }
@@ -47,17 +47,14 @@ ErrorCode WiFi_Connect(WiFiNetwork * network)
 
             // set the configuration
             error = wifi_set_config(&net);
-            if (error != SUCCESS)
-            {
+            if (error != SUCCESS) {
                   LOG_ERROR("error setting up Wi-Fi configuration %d", error);
             }
         }
     }
 
     if (net != NULL)
-    {
         free(net);
-    }
 
     return error;
 }
@@ -73,6 +70,7 @@ for the compiler that has to do more work compiling the code, and use more stora
 Let's remove the things that are useless:
 
 - comments that state the obvious. Code must be easy to read, comments shall only be added to document things that are not obvious from the code (better: refactor the code to eliminate the need of the comment)
+- spacing and consistency in indentation is important! Even if the compiler doesn't care about
 - in C, unlike C++, there is absolutely no need to cast out a `void *` to another pointer type. It just doesn't make any difference to do so, so we may as well eliminate the cast
 - if a `NULL` argument is passed to the `free()` function, the call will succeed. So there is absolutely no reason to test the argument passed to free for `NULL`
 - casting a return value of a function to `(void)` may make some linters happy. I would rather configure the linter with more sane rules, since checking **every** return value just adds a ton of noise
@@ -86,7 +84,7 @@ How? Well, probably advocates of clean code, or better person that believe to kn
 Let's see the difference:
 
 ```c
-ErrorCode WiFi_Connect(WiFiNetwork * network)
+ErrorCode WiFi_Connect(WiFiNetwork *network)
 {
     wifi_network_t *net = calloc(1, sizeof(wifi_network_t));
     if (net == NULL)
