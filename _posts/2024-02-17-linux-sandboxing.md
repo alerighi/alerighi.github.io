@@ -10,7 +10,7 @@ fn_keys:
     text: Print
     href: "#"
     onclick: "window.print(); return false"
-og_description: A practical guide on sandboxing processing in Linux using the namespaces functionality
+description: A practical guide on sandboxing processing in Linux using the namespaces functionality
 ---
 
 # Linux sandboxing with namespaces

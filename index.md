@@ -32,8 +32,8 @@ fn_keys:
     text: Print
     href: "#"
     onclick: "window.print(); return false"
-og_image: https://alerighi.it/assets/img/profile.jpeg
-og_description: Alessandro Righi personal homepage
+image: https://alerighi.it/assets/img/profile.jpeg
+description: Alessandro Righi personal homepage
 ---
 
 <pre class="big-screen-only">

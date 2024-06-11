@@ -4,17 +4,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Alessandro Righi personal website">
+  <meta name="description" content="{{ page.description | default: 'Alerighi personal website' }}">
   <meta name="author" content="Alessandro Righi">
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#1c1c1c">
 
   <!-- open graph -->
-  <meta property="og:type" content="{{ og_type }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:image" content="{{ page.og_image }}">
-  <meta property="og:description" content="{{ page.og_description }}">
+  {%- if page.image %}
+  <meta property="og:image" content="{{ page.image }}">
+  {%- endif %}
+  {%- if page.description %}
+  <meta property="og:description" content="{{ page.description }}">
+  {%- endif %}
 
   <!-- sorry if your browser doesn't support SVG favicons (thanks Safari) -->
   <link rel="icon" href="/assets/icon/favicon.svg" type="image/svg+xml">
@@ -25,7 +28,6 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 
   <script src="/assets/js/main.js" defer></script>
-  <script data-goatcounter="https://alerighi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
   <title>{{ page.title }}</title>
 </head>

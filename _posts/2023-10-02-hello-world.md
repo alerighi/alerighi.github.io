@@ -10,7 +10,7 @@ fn_keys:
     text: Print
     href: "#"
     onclick: "window.print(); return false"
-
+comments: true
 ---
 
 This is my first blog post. I hope to have the time and willingness to publish something on it. 

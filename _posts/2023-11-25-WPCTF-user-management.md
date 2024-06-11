@@ -10,7 +10,7 @@ fn_keys:
     text: Print
     href: "#"
     onclick: "window.print(); return false"
-og_description: Writeup of the Würth Phoenix CTF challenge 2023 challenge User Management
+description: Writeup of the Würth Phoenix CTF challenge 2023 challenge User Management
 ---
 
 # Würth Phoenix 2023 Writeup

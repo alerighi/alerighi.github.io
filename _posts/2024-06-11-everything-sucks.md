@@ -10,7 +10,7 @@ fn_keys:
     text: Print
     href: "#"
     onclick: "window.print(); return false"
-og_description: Alcune considerazioni sul fare lo sviluppatore software nel 2024
+description: Alcune considerazioni sul fare lo sviluppatore software nel 2024
 ---
 
 # Programmare nel 2024

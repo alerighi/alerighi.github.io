@@ -1,3 +1,7 @@
+title: Alerighi's site
+description: Alessandro Righi personal website
+url: https://alerighi.it
+author: Alessandro Righi
 excerpt_separator: "<!--more-->"
 highlighter: rouge
 kramdown:
@@ -5,4 +9,5 @@ kramdown:
   syntax_highlighter: rouge
 exclude:
   - vendor
-  
+plugins:
+  - jekyll-feed

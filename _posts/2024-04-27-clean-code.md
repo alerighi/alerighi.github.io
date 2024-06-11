@@ -10,7 +10,7 @@ fn_keys:
     text: Print
     href: "#"
     onclick: "window.print(); return false"
-og_description:
+description:
 ---
 
 # Clean code

@@ -10,7 +10,7 @@ fn_keys:
     text: Print
     href: "#"
     onclick: "window.print(); return false"
-og_description: Practical guide on how to install ArchLinux on BTRFS with encrypted FS
+description: Practical guide on how to install ArchLinux on BTRFS with encrypted FS
 ---
 
 # ArchLinux install with encrypted BTRFS
