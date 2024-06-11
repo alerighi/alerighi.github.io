@@ -1,3 +1,4 @@
+/* load fonts */
 @font-face {
   font-family: "Noto Sans Mono Light";
   src: url("/assets/fonts/NotoSansMono-Light.ttf") format("truetype");
@@ -38,7 +39,8 @@ body {
   margin-right: 8px;
 }
 
-body, html {
+body,
+html {
   height: 100%;
 }
 
@@ -50,6 +52,7 @@ main {
   scrollbar-width: none;
 }
 
+/* they are ugly! */
 main::-webkit-scrollbar {
   display: none;
 }
@@ -59,7 +62,9 @@ footer {
   width: 100%;
 }
 
-#container, footer, header {
+#container,
+footer,
+header {
   width: 100%;
   max-width: var(--content-max-width);
   margin-left: auto;
@@ -97,12 +102,12 @@ pre {
   line-height: normal;
 }
 
-.small-screen-only {
-  display: none;
+ul {
+  list-style-type: "- ";
 }
 
-.blink {
-  animation: blink 1s step-start 0s infinite;
+.small-screen-only {
+  display: none;
 }
 
 header {
@@ -115,11 +120,17 @@ header {
   margin-bottom: 9px;
 }
 
-h1, h2, h3, header, .bottom-bar {
+h1,
+h2,
+h3,
+header,
+.bottom-bar {
   font-family: "Noto Sans Mono Bold";
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--green-darker);
 }
 
@@ -153,14 +164,10 @@ h1, h2, h3 {
   margin-bottom: 4px;
 }
 
-pre.highlight {
-  border: 1px solid var(--blue);
-  padding: 9px;
-  font-size: 11pt;
-  overflow: scroll;
-}
-
-table, td, tr, th {
+table,
+td,
+tr,
+th {
   border: 1px solid var(--blue);
   border-collapse: collapse;
   padding: 9px;
@@ -174,12 +181,18 @@ th {
   text-align: center;
 }
 
+/* cursor blink animation */
+.blink {
+  animation: blink 1s step-start 0s infinite;
+}
+
 @keyframes blink {
   50% {
     opacity: 0;
   }
 }
 
+/* view on smaller screens. Remove header and change footer */
 @media only screen and (max-width: 95ch) {
   .big-screen-only {
     display: none;
@@ -206,66 +219,96 @@ th {
   }
 }
 
-
+/* code syntax highlight */
+pre.highlight {
+  border: 1px solid var(--blue);
+  padding: 9px;
+  font-size: 11pt;
+  overflow: scroll;
+}
 
 .highlight {
   color: var(--green-darker);
+}
 
-  table td { padding: 5px; }
-  table pre { margin: 0; }
-  .w {
-    color: var(--green);
-  }
-  .c,  .cd,  .cm,  .c1,  .cs {
-    color: var(--blue);
-  }
-  .cp {
-    color: var(--green);
-  }
-  .o,  .ow {
-    color: var(--magenta);
-  }
-  .p,  .pi {
-    color: var(--green);
-  }
-  .gi {
-    color: var(--yellow);
-  }
-  .gd {
-    color: var(--magenta);
-  }
-  .gh {
-    color: var(--magenta);
-    font-weight: bold;
-  }
-  .k,  .kn,  .kp,  .kr,  .kv {
-    color: var(--magenta);
-  }
-  .kc, .kt, .kd {
-    color: var(--magenta);
-  }
-  .s,  .sb,  .sc,  .sd,  .s2,  .sh,  .sx,  .s1 {
-    color: var(--yellow);
-  }
-  .sr {
-    color: var(--yellow);
-  }
-  .si, .se, .dl {
-    color: var(--yellow);
-  }
-  .nt, .nn,  .nc, .no{
-    color: var(--magenta);
-  }
-  .na {
-    color: var(--green);
-  }
-  .m,  .mf,  .mh,  .mi,  .il,  .mo,  .mb,  .mx {
-    color: var(--grey);
-  }
-  .ss {
-    color: var(--yellow);
-  }
-  .nb {
-    font-weight: bold;
-  }
+.highlight table td {
+  padding: 5px;
+}
+
+.highlight table pre {
+  margin: 0;
+}
+
+/* blue text */
+.highlight .c,
+.highlight .cd,
+.highlight .cm,
+.highlight .c1,
+.highlight .cs {
+  color: var(--blue);
+}
+
+/* green text */
+.highlight .na,
+.highlight .w,
+.highlight .cp,
+.highlight .p,
+.highlight .pi {
+  color: var(--green);
+}
+
+/* magenta text */
+.highlight .o,
+.highlight .ow,
+.highlight .gh,
+.highlight .gd,
+.highlight .k,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kv,
+.highlight .kc,
+.highlight .kt,
+.highlight .kd,
+.highlight .nt,
+.highlight .nn,
+.highlight .nc,
+.highlight .no {
+  color: var(--magenta);
+}
+
+/* yellow text */
+.highlight .gi,
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .sh,
+.highlight .sx,
+.highlight .s1,
+.highlight .sr,
+.highlight .si,
+.highlight .se,
+.highlight .dl,
+.highlight .ss {
+  color: var(--yellow);
+}
+
+/* gray text */
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .il,
+.highlight .mo,
+.highlight .mb,
+.highlight .mx {
+  color: var(--grey);
+}
+
+/* bold text */
+.highlight .gh,
+.highlight .nb {
+  font-weight: bold;
 }
