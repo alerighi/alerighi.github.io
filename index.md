@@ -28,6 +28,9 @@ fn_keys:
   - key: F8
     text: Instagram
     href: "https://instagram.com/alessandro.righi_"
+  - key: F11
+    text: RSS
+    href: "/feed.xml"
   - key: F12
     text: Print
     href: "#"

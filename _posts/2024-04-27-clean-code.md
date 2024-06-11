@@ -6,6 +6,9 @@ fn_keys:
   - key: F3
     text: Exit
     href: "/blog"
+  - key: F11
+    text: RSS
+    href: "/feed.xml"
   - key: F12
     text: Print
     href: "#"
