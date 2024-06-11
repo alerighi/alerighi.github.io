@@ -17,7 +17,7 @@
   --green: #39e600;
   --green-darker: #2db300;
   --grey: #949494;
-  --magenta: rgb(141, 69, 170);
+  --magenta: #8d45aa;
   --yellow: #aa6945;
   --content-max-width: 768px;
 }
@@ -206,12 +206,12 @@ th {
 /* a good website needs to look great on paper! */
 @media print {
   html {
-    background-color: hsl(0, 0%, 100%);
-    color: hsl(0, 0%, 0%);
+    background-color: #ffffff;
+    color: #000000;
   }
 
   a {
-    color: hsl(0, 0%, 66%);
+    color: #a8a8a8;
   }
 
   main {
