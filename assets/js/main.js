@@ -32,7 +32,7 @@ window.onload = function() {
     fetch("https://analytics.alerighi.it/record.php", {
         method: "post",
         body: JSON.stringify({
-            location: document.location,
+            location: document.location.href,
             referrer: document.referrer,
             date: Date(),
             id,
