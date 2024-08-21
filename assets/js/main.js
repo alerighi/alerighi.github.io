@@ -34,7 +34,7 @@ window.onload = function() {
         body: JSON.stringify({
             location: document.location.href,
             referrer: document.referrer,
-            date: Date(),
+            date: new Date().toString(),
             id,
         }),
     })
