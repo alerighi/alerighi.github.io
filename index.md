@@ -50,37 +50,49 @@ description: Alessandro Righi personal homepage
                                                                  |___/         </pre>
 <h1 class="small-screen-only">ALESSANDRO RIGHI</h1>
 
-## ABOUT ME
+<style>h2::before { content: ""; }</style>
+## $ whoami
 
-I'm an Information Engineer, passionate about anything technical, always wanting to learn 
-new things. I love to solve real-world problems with elegant, simple, reliable solutions.
+I'm an Information Engineer, passionate about anything technical, always wanting 
+to learn new things. I love to solve real-world problems with elegant, simple, 
+reliable solutions.
 
-When I was a child I always had a screwdriver in my hands, taking apart devices to see 
-how they work. I was the child that used to fix the technical issue of my parents.
+When I was a child I always had a screwdriver in my hands, taking apart devices 
+to see how they work. I was the child that used to fix the technical issue of 
+my parents.
 
-I then studied Computer Science and Engineering at [University of Verona](https://www.di.univr.it), 
-where I also got first a bachelor's and then master's degree.
+I've got a master's degree in Computer Science and Engineering at the
+[University of Verona](https://www.di.univr.it), where I also got my bachelor's 
+degree.
 
-In 2020 I started working as a software engineer in [Iotinga](https://iotinga.it), a 
-young company specialized in IoT and IIoT devices. Here I did confront myself with
+In 2020 I started working as a software engineer in [Iotinga](https://iotinga.it), 
+a young company specialized in IoT devices. Here I did confront myself with
 challenging and stimulating projects, improving and learning new things everyday.
 I'm now holding a position as an Applied Research Director at the same company.
 
 One of my passions is cybersecurity: I participated at the 2020 national cybersecurity 
-challenge [CyberChallenge.IT](https://cyberchallenge.it)), where I qualified first at 
-the local selection and, with the team of my university, 3rd at the national finals. 
-I'm now one of the main organizers of the initiative at the University of Verona venue.
+challenge [CyberChallenge.IT](https://cyberchallenge.it)), where I qualified first 
+at the local selection and, with the team of my university, 3rd at the national 
+finals. I'm now one of the main organizers of the initiative at the University 
+of Verona venue.
 
-In the past I also participated in competitive programming contests, most notably with 
-my team I qualified 21th at the Google HashCode 2019 world finals in Dublin.
-I worked as a tutor for the [Italian Olympiad in Informatics](https://olimpiadi-informatica.it) till 2022.
-        
-Finally, I'm an hobbyist, I like doing DIY projects, fixing things, tearing them apart to see how they
-are built, hacking and modifying stuff to make it better and to recycle components that otherwise would 
-have gone in the dumpster.
+In the past I also participated in competitive programming contests, most notably 
+with my team I qualified 21th at the Google HashCode 2019 world finals in Dublin.
+I worked as a tutor for the [Italian Olympiad in Informatics](https://olimpiadi-informatica.it) 
+till 2022.
 
-To know more, check out my [Curriculum Vitae](/cv/cv-alessandro-righi.pdf), my [blog](/blog), 
-and finally my [GitHub profile](https://github.com/alerighi)!
+Finally, I'm an hobbyist, I like doing DIY projects, fixing things, tearing them 
+apart to see how they are built. I'm an hacker, in the original meaning, I linke
+modifying things to improve them, recycle and repurpose components that otherwise
+would have gone in the dumpster.
 
-To contact me about professional opportunities, to which I'm always open, or anything else, 
-write me an [email](mailto:info@alerighi.it).<span class="blink big-screen-only">█</span>
+I'm a supporter of the Free Software and Open Source movements, and I'm a proud
+Linux user since 2011. 
+
+To know more, check out my [Curriculum Vitae](/cv/cv-alessandro-righi.pdf), my 
+[blog](/blog), and finally my [GitHub profile](https://github.com/alerighi)!
+
+To contact me about professional opportunities, to which I'm always open, or 
+anything else, write me an [email](mailto:info@alerighi.it).
+<span class="blink big-screen-only">█</span>
+
