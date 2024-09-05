@@ -24,7 +24,7 @@ fn_keys:
     href: "https://www.linkedin.com/in/alessandro-righi-051488158/"
   - key: F7
     text: Curriculum Vitae
-    href: "/cv/cv-alessandro-righi.pdf"
+    href: "https://alerighi.it/cv/cv-alessandro-righi.pdf"
   - key: F8
     text: Instagram
     href: "https://instagram.com/alessandro.righi_"
@@ -89,8 +89,8 @@ would have gone in the dumpster.
 I'm a supporter of the Free Software and Open Source movements, and I'm a proud
 Linux user since 2011. 
 
-To know more, check out my [Curriculum Vitae](/cv/cv-alessandro-righi.pdf), my 
-[blog](/blog), and finally my [GitHub profile](https://github.com/alerighi)!
+To know more, check out my [Curriculum Vitae](https://alerighi.it/cv/cv-alessandro-righi.pdf), my 
+[blog](https://alerighi.it/blog), and finally my [GitHub profile](https://github.com/alerighi)!
 
 To contact me about professional opportunities, to which I'm always open, or 
 anything else, write me an [email](mailto:info@alerighi.it).
